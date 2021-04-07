@@ -1,0 +1,95 @@
+div.ui.dimmer {
+  position: fixed; }
+
+div.ui.segment {
+  background: #FFFFFF;
+  box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.06);
+  border-radius: 20px;
+  border: 0; }
+  @media screen and (min-width: 769px) {
+    div.ui.segment {
+      padding: 2em;
+      margin: 2rem; } }
+
+span.error {
+  color: #db2828;
+  font-size: smaller !important; }
+
+span.required {
+  margin: -.2em 0 0 .2em;
+  color: #db2828; }
+
+span.mg--horizontal {
+  margin: 0 .5rem; }
+
+span.link {
+  color: #00b5ad; }
+  span.link.cursor {
+    cursor: pointer; }
+  span.link:hover {
+    text-decoration: underline; }
+
+a.item {
+  border-radius: .3em !important; }
+
+label.width--fit {
+  min-width: fit-content; }
+
+button.ui.button.float--right {
+  right: 0;
+  position: absolute;
+  margin-right: 1em !important; }
+
+div.field--standard, div.react-datepicker-wrapper {
+  width: 100%; }
+
+div.input--inline {
+  display: flex;
+  align-items: center; }
+
+div.field.field--inline {
+  display: flex;
+  align-items: center; }
+
+input.custom.character--one {
+  width: 40px !important; }
+  input.custom.character--one.error {
+    background: #fff6f6;
+    border-color: #e0b4b4;
+    color: #9f3a38;
+    border-radius: '';
+    box-shadow: none; }
+
+input.custom.character--two {
+  width: 50px !important; }
+  input.custom.character--two.error {
+    background: #fff6f6;
+    border-color: #e0b4b4;
+    color: #9f3a38;
+    border-radius: '';
+    box-shadow: none; }
+
+input.custom.character--four {
+  width: 70px !important; }
+  input.custom.character--four.error {
+    background: #fff6f6;
+    border-color: #e0b4b4;
+    color: #9f3a38;
+    border-radius: '';
+    box-shadow: none; }
+
+input.custom.character--five {
+  width: 80px !important; }
+  input.custom.character--five.error {
+    background: #fff6f6;
+    border-color: #e0b4b4;
+    color: #9f3a38;
+    border-radius: '';
+    box-shadow: none; }
+
+input.form-control {
+  padding-left: 3em !important;
+  width: 250px !important; }
+
+input.width--standard {
+  width: 250px !important; }
